@@ -1,6 +1,7 @@
 *.swp
 *.swo
 .bundle
+.envrc
 db/*.sqlite3
 db/*.sqlite3-journal
 log/*.log
