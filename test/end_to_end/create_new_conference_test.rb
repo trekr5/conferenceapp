@@ -4,6 +4,9 @@ require 'test_helper'
 describe 'when creating a new conference' do
   it 'is possible to specify the conference name and see it listed on the page' do
     create_a_new_conference_named "Tech Conference"
+    create_a_new_conference_named "eurucamp 2014"
+
     page_must_show_a_conference_named "Tech Conference"
+    page_must_show_a_conference_named "eurucamp 2014"
   end
 end
